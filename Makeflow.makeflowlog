@@ -1,0 +1,50 @@
+# NODE	5	python shakespeare-compare.py hamlet.txt > x5
+# CATEGORY	5	default
+# PARENTS	5	0	0
+# SOURCES	5	hamlet.txt	shakespeare-compare.py
+# TARGETS	5	x5
+# COMMAND	5	python shakespeare-compare.py hamlet.txt > x5
+# NODE	4	python shakespeare-compare.py othello.txt > x4
+# CATEGORY	4	default
+# PARENTS	4	0	0
+# SOURCES	4	othello.txt	shakespeare-compare.py
+# TARGETS	4	x4
+# COMMAND	4	python shakespeare-compare.py othello.txt > x4
+# NODE	3	python shakespeare-compare.py macbeth.txt > x3
+# CATEGORY	3	default
+# PARENTS	3	0	0
+# SOURCES	3	macbeth.txt	shakespeare-compare.py
+# TARGETS	3	x3
+# COMMAND	3	python shakespeare-compare.py macbeth.txt > x3
+# NODE	2	python shakespeare-compare.py juliuscaesar.txt > x2
+# CATEGORY	2	default
+# PARENTS	2	0	0
+# SOURCES	2	juliuscaesar.txt	shakespeare-compare.py
+# TARGETS	2	x2
+# COMMAND	2	python shakespeare-compare.py juliuscaesar.txt > x2
+# NODE	1	python shakespeare-compare.py kinglear.txt > x1
+# CATEGORY	1	default
+# PARENTS	1	0	0
+# SOURCES	1	kinglear.txt	shakespeare-compare.py
+# TARGETS	1	x1
+# COMMAND	1	python shakespeare-compare.py kinglear.txt > x1
+# NODE	0	
+# CATEGORY	0	default
+# PARENTS	0
+# SOURCES	0
+# TARGETS	0	shakespeare-compare.py	kinglear.txt	juliuscaesar.txt	macbeth.txt	othello.txt	hamlet.txt
+# COMMAND	0	
+# STARTED	1384408348728695
+1384408348728951 5 1 9634 5 1 0 0 0 6
+1384408348729175 4 1 9635 4 2 0 0 0 6
+1384408348729436 3 1 9636 3 3 0 0 0 6
+1384408348729710 2 1 9637 2 4 0 0 0 6
+1384408348729959 1 1 9638 1 5 0 0 0 6
+1384408348730180 0 1 9639 0 6 0 0 0 6
+1384408348774237 0 2 9639 0 5 1 0 0 6
+1384409096318972 3 2 9636 0 4 2 0 0 6
+1384409184675944 2 2 9637 0 3 3 0 0 6
+1384409459693772 4 2 9635 0 2 4 0 0 6
+1384409473840331 1 2 9638 0 1 5 0 0 6
+1384409696586769 5 2 9634 0 0 6 0 0 6
+# COMPLETED	1384409696586954

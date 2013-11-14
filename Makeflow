@@ -1,0 +1,12 @@
+hamlet.txt othello.txt macbeth.txt juliuscaesar.txt kinglear.txt shakespeare-compare.py:
+
+x1: shakespeare-compare.py kinglear.txt
+	python shakespeare-compare.py kinglear.txt > x1
+x2: shakespeare-compare.py juliuscaesar.txt
+	python shakespeare-compare.py juliuscaesar.txt > x2
+x3: shakespeare-compare.py macbeth.txt
+	python shakespeare-compare.py macbeth.txt > x3
+x4: shakespeare-compare.py othello.txt
+	python shakespeare-compare.py othello.txt > x4
+x5: shakespeare-compare.py hamlet.txt
+	python shakespeare-compare.py hamlet.txt > x5
